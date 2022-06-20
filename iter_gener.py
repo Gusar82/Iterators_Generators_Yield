@@ -44,7 +44,7 @@ def main():
         ['d', 'e', 'f', 'h', False],
         [1, 2, None],
     ]
-    for item in FlatIterator3(nested_list):
+    for item in FlatIterator2(nested_list):
         print(item, end=" ")
     print()
     for item in flat_generator(nested_list):
